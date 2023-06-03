@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University WebS Site Design</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Chandigarh University</h1>
+            <p>We thrive for excellence. Our moto is to get
+                you placed in top tech giants.<br> We provide all courses that are in
+                accordance with new world.
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-------------------- COURSES --------------------->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Hand picked courses from all over the world those cover all new techs</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>The university was established on 10 July 2012 by an act of Punjab State Legislature.
+                <br>It is recognized by University Grants Commission under Section 2 with the right to confer degrees as per Section 22 of the UGC Act, 1956</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>The university was established on 10 July 2012 by an act of Punjab State Legislature.
+                <br>It is recognized by University Grants Commission under Section 2 with the right to confer degrees as per Section 22 of the UGC Act, 1956</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The university was established on 10 July 2012 by an act of Punjab State Legislature.
+                <br>It is recognized by University Grants Commission under Section 2 with the right to confer degrees as per Section 22 of the UGC Act, 1956</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Campus -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>We have world class campus spread over 600 acres of 
+            area consisting all basic to advanced facilities</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------- Facilities------------- -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>All basic facilities at most reasonable prices. We believe in quality 
+            at best price and that's what we provide here at Chandigarh university.
+        </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class library</h3>
+                <p>Books from all around the world.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Basketball Court</h3>
+                <p>Learn & Play</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Quench Your Hunger</h3>
+                <p>Have Food</p>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>Some valuable testimonials to assist you in making decisions.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <p>Chandigarh university is one of the top notch Institute of Punjab. 
+                    It provides the best placements as 650+ companies comes for placements. 
+                    The highest package offered is 51 Lacs in cloud computing. 
+                    Average is around 10-11 Lacs and the lowest is 6-7 Lacs. 
+                    Top companies Amazon, google, hp, many more.</p>
+                <h3>Jazzmin Sandlas</h3>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <p>Considering the accreditations of the university 
+                    (UGC, UGC-DEB, NAAC), the fee range, the variety of courses offered, 
+                    along with the placement support, 
+                    pursuing a course from Online Chandigarh University can indeed be worth your investment of time, 
+                    effort and financial resources.</p>
+                <h3>Manjot Jatty</h3>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+    function showMenu() {
+        navLinks.style.right = "0px"
+    }
+</script>
+
+</html>
