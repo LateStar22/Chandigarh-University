@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chandigarh University</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------- About us content ------>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's largest University</h1>
+                <p>Sit dolorum quae qui quaerat ipsam et molestias magnam et quasi culpa hic assumenda blanditiis est
+                    quos neque.
+                    Non modi placeat aut minus ratione et explicabo ipsam vel quam exercitationem ut facere molestias
+                    eum natus dolor.
+                    Ex galisum beatae et dolor internos ut deleniti quasi et cupiditate mollitia aut voluptas officia
+                    aut quas consectetur.
+                </p>
+                <a href="#" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------------- Footer ----------->
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet. Sit pariatur impedit aut laborum impedit ut quisquam accusantium non facere
+            necessitatibus.
+            Est consequatur eius sed fugiat fugiat non nesciunt inventore hic veniam dicta vel ratione iureLorem ipsum
+            dolor sit amet.
+            <br>Sit pariatur impedit aut laborum impedit ut quisquam accusantium non facere necessitatibus. Est
+            consequatur eius sed fugiat fugiat non nesciunt inventore hic veniam dicta vel ratione iure
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made By Aniket Shukla</p>
+        <p><i class="fa fa-heart-o"></i>Love Front End Development<i class="fa fa-heart-o"></i></p>
+    </section>
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+    function showMenu() {
+        navLinks.style.right = "0px"
+    }
+</script>
+
+</html>
