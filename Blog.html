@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chandigarh University</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Conatct.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & online programmes for 2023</h1>
+    </section>
+
+    <!-- ---------Blog page Content------ -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificates & online programmes for 2023</h2>
+                <p>Sit dolorum quae qui quaerat ipsam et molestias magnam et quasi culpa hic assumenda blanditiis est
+                    quos neque.
+                    Non modi placeat aut minus ratione et explicabo ipsam vel quam exercitationem ut facere molestias
+                    eum natus dolor.
+                    Ex galisum beatae et dolor internos ut deleniti quasi et cupiditate mollitia aut voluptas officia
+                    aut quas consectetur.</p>
+                <br>
+                <p>
+                    Sit dolorum quae qui quaerat ipsam et molestias magnam et quasi culpa hic assumenda blanditiis est
+                    quos neque.
+                    Non modi placeat aut minus ratione et explicabo ipsam vel quam exercitationem ut facere molestias
+                    eum natus dolor.
+                    Ex galisum beatae et dolor internos ut deleniti quasi et cupiditate mollitia aut voluptas officia
+                    aut quas consectetur.
+                </p>
+                <br>
+                <p>
+                    Sit dolorum quae qui quaerat ipsam et molestias magnam et quasi culpa hic assumenda blanditiis est
+                    quos neque.
+                    Non modi placeat aut minus ratione et explicabo ipsam vel quam exercitationem ut facere molestias
+                    eum natus dolor.
+                    Ex galisum beatae et dolor internos ut deleniti quasi et cupiditate mollitia aut voluptas officia
+                    aut quas consectetur.
+                </p>
+                <br>
+                <p>
+                    Sit dolorum quae qui quaerat ipsam et molestias magnam et quasi culpa hic assumenda blanditiis est
+                    quos neque.
+                    Non modi placeat aut minus ratione et explicabo ipsam vel quam exercitationem ut facere molestias
+                    eum natus dolor.
+                    Ex galisum beatae et dolor internos ut deleniti quasi et cupiditate mollitia aut voluptas officia
+                    aut quas consectetur.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Add your comments"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categoriess</h3>
+                <div>
+                    <span>Buisness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>80</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>79</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!--------------- Footer ----------->
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet. Sit pariatur impedit aut laborum impedit ut quisquam accusantium non facere
+            necessitatibus.
+            Est consequatur eius sed fugiat fugiat non nesciunt inventore hic veniam dicta vel ratione iureLorem ipsum
+            dolor sit amet.
+            <br>Sit pariatur impedit aut laborum impedit ut quisquam accusantium non facere necessitatibus. Est
+            consequatur eius sed fugiat fugiat non nesciunt inventore hic veniam dicta vel ratione iure
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made By Aniket Shukla</p>
+        <p><i class="fa fa-heart-o"></i>Love Front End Development<i class="fa fa-heart-o"></i></p>
+    </section>
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+    function showMenu() {
+        navLinks.style.right = "0px"
+    }
+</script>
+
+</html>
